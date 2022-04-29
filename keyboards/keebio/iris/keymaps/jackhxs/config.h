@@ -21,3 +21,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define EE_HANDS
 
 #define MK_3_SPEED
+
+#define SPLIT_TRANSPORT_MIRROR
+#define RGB_MATRIX_KEYPRESSES // reacts to keypresses
+#define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS // enable framebuffer effects
+
+#define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
