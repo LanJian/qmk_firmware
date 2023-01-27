@@ -20,6 +20,9 @@ bool forge_splash_runner(uint8_t start, effect_params_t* params, reactive_splash
             hsv           = effect_func(hsv, dx, dy, dist, tick);
         }
         //hsv.v   = scale8(hsv.v, rgb_matrix_config.hsv.v);
+        if (hsv.v >= 200) {
+          hsv.v = 200;
+        }
         RGB rgb = rgb_matrix_hsv_to_rgb(hsv);
         rgb_matrix_set_color(i, rgb.r, rgb.g, rgb.b);
     }
