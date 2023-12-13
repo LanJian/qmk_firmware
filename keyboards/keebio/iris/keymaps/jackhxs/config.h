@@ -29,3 +29,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 #define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS
+
+#define HOLD_ON_OTHER_KEY_PRESS
